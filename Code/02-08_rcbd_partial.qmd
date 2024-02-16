@@ -177,7 +177,7 @@ Although it seems like there is some pattern, I wouldn't worry here since the er
 
 ## Residual homoscedasticity  
 - For this, we use the **fitted vs. residual plot**.  
-- What we want to see: no clear pattern in residuals, random cloud of points.  
+- What we want to see: no clear pattern in residuals, random cloud of points.  jga;jagj
 - What we do not want to see: residuals increasing as fitted value increases (fan shape).  
 - Adding a `geom_smooth()` helps with that conclusion. We want to see the smooth line and error bands comprising 0 on the y axis.  
 
